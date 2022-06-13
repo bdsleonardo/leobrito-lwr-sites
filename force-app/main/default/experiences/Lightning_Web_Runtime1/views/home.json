@@ -1,0 +1,84 @@
+{
+  "appPageId" : "b3a1ce7b-6977-4c25-b00d-c7b38fda2c80",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "aeba1a67-65e1-41a1-8d12-ecb22d51a0c9",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"04444bbb-5ef1-4619-a3e4-aea459a6e46c\",\"columns\":[{\"UUID\":\"876d7241-628b-4bb6-9587-6609383bd0a9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "04444bbb-5ef1-4619-a3e4-aea459a6e46c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "alignment" : "center",
+            "size" : "small",
+            "stretch" : "standard",
+            "text" : "Developer",
+            "type" : "primary",
+            "url" : "https://developer.salesforce.com"
+          },
+          "componentName" : "dxp_base:button",
+          "id" : "a5596d0c-3d68-491f-bf35-fc41533b351d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\">\n    <!--div style=\"background-image: url(assets/img/desert.svg); background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div-->\n    \t<h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> \n    \t<div>Welcomeeee to my first Lightning Web Runtime pages.</div>\n</div>"
+          },
+          "componentName" : "community_builder:htmlEditor",
+          "id" : "1a90a07a-a8e6-4a73-819b-cba431953e1d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonText" : "Button"
+          },
+          "componentName" : "c:lwrTest",
+          "id" : "e481f8f0-8871-4f25-86fe-f38f4597b238",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "876d7241-628b-4bb6-9587-6609383bd0a9",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "def77256-91e1-4652-9c37-cb2a7e3ea048",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "083aba79-7795-4226-ba80-3bd0db86d223",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "74d3c241-ba26-4c4e-85e2-323576d66547",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
